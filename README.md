@@ -10,7 +10,8 @@ Coisas que precisam ser instaladas antes de executar o projeto:
 - [ ] **Python 3.8+** e **pip**  
 - [ ] **Git**  
 Depois, instale as dependências do projeto:
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
  
 ## Estrutura do Repositório
 Principais arquivos e diretórios:
