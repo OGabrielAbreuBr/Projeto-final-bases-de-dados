@@ -58,7 +58,7 @@ Depois, instale as dependências do projeto:
     psql -U usuario -d nome_do_banco -f scripts/consultas/cons1.sql
     psql -U usuario -d nome_do_banco -f scripts/consultas/cons2.sql
     
-    #Tem até 7 consultas, é só colocar em scripts/consultas/cons[numero_consulta]
+    #Tem até 7 consultas, é só colocar em scripts/consultas/cons[numero_consulta].sql
 
 ## Resultados Esperados das consultas
 - **Consulta 1:** Lista cursos e departamentos da Escola de Engenharia.  
