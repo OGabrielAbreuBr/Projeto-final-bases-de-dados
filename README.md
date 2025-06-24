@@ -8,23 +8,27 @@ e administrativas, facilitando a interação entre alunos, professores e a admin
 Coisas que precisam ser instaladas antes de executar o projeto:
 - [ ] **PostgreSQL** (inclui `psql`)  
 - [ ] **Python 3.8+** e **pip**  
-- [ ] **Git**  
+- [ ] **Git**
+
 Depois, instale as dependências do projeto:
   ```bash
   pip install -r requirements.txt
  
 ## Estrutura do Repositório
 Principais arquivos e diretórios:
-├── scripts/
-│ ├── 01_create_schema.sql
-│ ├── 02_load_data.sql
-│ ├── 03_consultas/
-│ │ ├── consulta1.sql
-│ │ ├── consulta2.sql
-│ │ └── ...
-│ └── ...
-├── README.md
-└── LICENSE
+
+    /
+    ├── scripts/
+    │   ├── 01_create_schema.sql
+    │   ├── 02_load_data.sql
+    │   ├── 03_consultas/
+    │   │   ├── consulta1.sql
+    │   │   ├── consulta2.sql
+    │   │   └── ...
+    │   └── ...
+    ├── README.md
+    └── LICENSE
+
 
 - `scripts/01_create_schema.sql` – cria tabelas, índices e constraints.  
 - `scripts/02_load_data.sql` – insere dados de exemplo.  
