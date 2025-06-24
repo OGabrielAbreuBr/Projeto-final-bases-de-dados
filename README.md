@@ -56,8 +56,8 @@ Principais arquivos e diretórios:
 - **Consulta 7:** Calcula a média de feedback em didática para cada professor.
 
 ## Equipe do Projeto
-- **Julia Cavallio Orlando** (NUSP: 14758721) — GitHub: [@usuario1](https://github.com/usuario1)
-- **Antônio C. de A. M. Neto** (NUSP: 14559013) — GitHub: [@usuario2](https://github.com/usuario2)  
+- **Julia Cavallio Orlando** (NUSP: 14758721) — GitHub: [@JuliaOrlando](https://github.com/JuliaOrlando)
+- **Antônio C. de A. M. Neto** (NUSP: 14559013) — GitHub: [@Antonioonet](https://github.com/Antonioonet)  
 - **Gabriel de Andrade Abreu** (NUSP: 14571362) — GitHub: [@OGabrielAbreuBr](https://github.com/OGabrielAbreuBr)
 - **Guilherme Antonio Costa Bandeira** (NUSP: 14575620) — GitHub: [@usuario3](https://github.com/usuario3) 
 
