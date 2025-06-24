@@ -60,7 +60,16 @@ Depois, instale as dependências do projeto (caso não tenha ainda o postgre):
     sudo -u postgres psql -d trabalho_bd -f scripts/consultas/cons1.sql
     sudo -u postgres psql -d trabalho_bd -f scripts/consultas/cons2.sql
     
-
+## Teste dos index 
+    #rode esse scripts para fazer inserções extras, para explicitar a diferença de desempenho dada pelo index
+    sudo -u postgres psql -d trabalho_bd -f scripts/index/strong_insertion.sql
+    
+    sudo -u postgres psql -P pager=off -d trabalho_bd -f scripts/index/index1.sql
+    
+## Teste das visions
+    
+    sudo -u postgres psql -d trabalho_bd -f scripts/vision/vision1.sql
+    
 
 ## Resultados Esperados das consultas
 - **Consulta 1:** Lista cursos e departamentos da Escola de Engenharia.  
