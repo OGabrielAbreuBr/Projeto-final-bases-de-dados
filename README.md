@@ -11,7 +11,6 @@ Coisas que precisam ser instaladas antes de executar o projeto:
 - [ ] **Git**
 
 Depois, instale as dependências do projeto:
-
     ```bash
     pip install -r requirements.txt
  
