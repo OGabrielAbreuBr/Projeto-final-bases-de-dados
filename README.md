@@ -10,7 +10,7 @@ Coisas que precisam ser instaladas antes de executar o projeto:
 - [ ] **Python 3.8+** e **pip**  
 - [ ] **Git**
 
-Depois, instale as dependências do projeto:
+Depois, instale as dependências do projeto (caso não tenha ainda o postgre):
 
     
     pip install -r requirements.txt
@@ -20,6 +20,7 @@ Depois, instale as dependências do projeto:
 
     /
     ├── scripts/
+    |   ├── requirements.txt
     │   ├── setup.sql
     │   ├── insertion.sql
     │   ├── consultas/
@@ -48,15 +49,15 @@ Depois, instale as dependências do projeto:
    cd Projeto-final-bases-de-dados
 2. **Criar o banco de dados**
     ```bash
-    psql -U usuario -f scripts/setup.sql
+    sudo -u postgres psql -f setup.sql
 3. **Carregar dados de exemplo**
     ```bash
-    psql -U usuario -d nome_do_banco -f scripts/insertion.sql
+    sudo -u postgres psql -d trabalho_bd -f scripts/insertion.sql
     
 ## Execução das consultas
     
-    psql -U usuario -d nome_do_banco -f scripts/consultas/cons1.sql
-    psql -U usuario -d nome_do_banco -f scripts/consultas/cons2.sql
+    sudo -u postgres psql -d trabalho_bd -f scripts/consultas/cons1.sql
+    sudo -u postgres psql -d trabalho_bd -f scripts/consultas/cons2.sql
     
     #Tem até 7 consultas, é só colocar em scripts/consultas/cons[numero_consulta].sql
 
