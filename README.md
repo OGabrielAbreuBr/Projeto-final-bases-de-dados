@@ -20,20 +20,26 @@ Depois, instale as dependências do projeto:
 
     /
     ├── scripts/
-    │   ├── 01_create_schema.sql
-    │   ├── 02_load_data.sql
-    │   ├── 03_consultas/
-    │   │   ├── consulta1.sql
-    │   │   ├── consulta2.sql
+    │   ├── setup.sql
+    │   ├── insertion.sql
+    │   ├── consultas/
+    │   │   ├── cons1.sql
+    │   │   ├── cons2.sql
     │   │   └── ...
-    │   └── ...
+    |   ├── index/
+    |   |    ├── index1.sql
+    |   |    └── ...
+    │   └── visions/
+    |        ├── vision1.sql
+    |        └── ...
+    |          
     ├── README.md
     └── LICENSE
 
 
-- `scripts/01_create_schema.sql` – cria tabelas, índices e constraints.  
-- `scripts/02_load_data.sql` – insere dados de exemplo.  
-- `scripts/03_consultas/` – contém todas as consultas exigidas no enunciado.
+- `scripts/setup.sql` – cria tabelas e constraints.  
+- `scripts/insertion.sql` – insere dados de exemplo.  
+- `scripts/consultas/` – contém todas as consultas exigidas no enunciado.
 
 ## Execução do banco de dados
 1. **Clonar repositório**  
@@ -42,15 +48,15 @@ Depois, instale as dependências do projeto:
    cd Projeto-final-bases-de-dados
 2. **Criar o banco de dados**
     ```bash
-    psql -U usuario -f scripts/01_create_schema.sql
+    psql -U usuario -f scripts/setup.sql
 3. **Carregar dados de exemplo**
     ```bash
-    psql -U usuario -d nome_do_banco -f scripts/02_load_data.sql
+    psql -U usuario -d nome_do_banco -f scripts/insertion.sql
     
 ## Execução das consultas
     
-    psql -U usuario -d nome_do_banco -f scripts/03_consultas/consulta1.sql
-    psql -U usuario -d nome_do_banco -f scripts/03_consultas/consulta2.sql
+    psql -U usuario -d nome_do_banco -f scripts/consultas/cons1.sql
+    psql -U usuario -d nome_do_banco -f scripts/consultas/cons2.sql
 
 ## Resultados Esperados das consultas
 - **Consulta 1:** Lista cursos e departamentos da Escola de Engenharia.  
@@ -65,7 +71,7 @@ Depois, instale as dependências do projeto:
 - **Julia Cavallio Orlando** (NUSP: 14758721) — GitHub: [@JuliaOrlando](https://github.com/JuliaOrlando)
 - **Antônio C. de A. M. Neto** (NUSP: 14559013) — GitHub: [@Antonioonet](https://github.com/Antonioonet)  
 - **Gabriel de Andrade Abreu** (NUSP: 14571362) — GitHub: [@OGabrielAbreuBr](https://github.com/OGabrielAbreuBr)
-- **Guilherme Antonio Costa Bandeira** (NUSP: 14575620) — GitHub: [@usuario3](https://github.com/usuario3) 
+- **Guilherme Antonio Costa Bandeira** (NUSP: 14575620) — GitHub: [@Guilherme-Bandeira](https://github.com/Guilherme-Bandeira) 
 
 ## Agradecimentos
 Agradecemos a todos que contribuíram para o desenvolvimento deste projeto, em especial:  
