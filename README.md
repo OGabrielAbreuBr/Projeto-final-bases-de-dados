@@ -48,7 +48,7 @@ Depois, instale as dependências do projeto:
     psql -U usuario -d nome_do_banco -f scripts/02_load_data.sql
     
 ## Execução das consultas
-    ```bash
+    
     psql -U usuario -d nome_do_banco -f scripts/03_consultas/consulta1.sql
     psql -U usuario -d nome_do_banco -f scripts/03_consultas/consulta2.sql
 
