@@ -12,7 +12,7 @@ Coisas que precisam ser instaladas antes de executar o projeto:
 
 Depois, instale as dependências do projeto:
 
-    ```bash
+    /
     pip install -r requirements.txt
  
 ## Estrutura do Repositório
