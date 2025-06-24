@@ -59,7 +59,7 @@ Principais arquivos e diretórios:
 ## Equipe do Projeto
 - **Julia Cavallio Orlando** (NUSP: 14758721) — GitHub: [@usuario1](https://github.com/usuario1)
 - **Antônio C. de A. M. Neto** (NUSP: 14559013) — GitHub: [@usuario2](https://github.com/usuario2)  
-- **Gabriel de Andrade Abreu** (NUSP: 14571362) — GitHub: [@usuario3]([https://github.com/usuario3](https://github.com/OGabrielAbreuBr))
+- **Gabriel de Andrade Abreu** (NUSP: 14571362) — GitHub: [@OGabrielAbreuBr](https://github.com/OGabrielAbreuBr)
 - **Guilherme Antonio Costa Bandeira** (NUSP: 14575620) — GitHub: [@usuario3](https://github.com/usuario3) 
 
 ## Agradecimentos
