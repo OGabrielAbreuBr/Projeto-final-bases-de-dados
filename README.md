@@ -66,7 +66,7 @@ Depois, instale as dependências do projeto:
 - **Consulta 3:** Calcula a média geral de notas para cada curso.
 - **Consulta 4:** Lista alunos de Ciência da Computação na disciplina de Banco de Dados.
 - **Consulta 5:** Compara a capacidade da turma com o número de alunos matriculados.
-- **Consulta 6:** Verificando os alunos que passaram em Cálculo
+- **Consulta 6:** Verifica os alunos que passaram em Cálculo
 - **Consulta 7:** Calcula a média de feedback em didática para cada professor.
 
 ## Equipe do Projeto
