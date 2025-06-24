@@ -28,6 +28,7 @@ Depois, instale as dependências do projeto (caso não tenha ainda o postgre):
     │   │   ├── cons2.sql
     │   │   └── ...
     |   ├── index/
+    |   |    ├── strong_insertions.sql
     |   |    ├── index1.sql
     |   |    └── ...
     │   └── visions/
