@@ -60,7 +60,7 @@ Depois, instale as dependências do projeto (caso não tenha ainda o postgre):
     sudo -u postgres psql -d trabalho_bd -f scripts/consultas/cons1.sql
     sudo -u postgres psql -d trabalho_bd -f scripts/consultas/cons2.sql
     
-    #Tem até 7 consultas, é só colocar em scripts/consultas/cons[numero_consulta].sql
+
 
 ## Resultados Esperados das consultas
 - **Consulta 1:** Lista cursos e departamentos da Escola de Engenharia.  
