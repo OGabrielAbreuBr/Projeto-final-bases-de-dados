@@ -45,7 +45,7 @@ SELECT
     (random() * 4 + 1)::int,
     (random() * 4 + 1)::int
 FROM
-    generate_series(1, 10000) AS s,
+    generate_series(1, 100000) AS s,
     (SELECT * FROM Matricula WHERE ID_professor IS NOT NULL ORDER BY random() LIMIT 1) AS m
 JOIN
     Turma t ON m.Codigo_turma = t.Codigo_turma;
