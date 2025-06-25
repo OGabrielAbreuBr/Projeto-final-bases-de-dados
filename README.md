@@ -13,7 +13,7 @@ Coisas que precisam ser instaladas antes de executar o projeto:
 Depois, instale as dependências do projeto (caso não tenha ainda o postgre):
 
     
-    pip install -r requirements.txt
+     sudo apt-get install postgresql postgresql-contrib
  
 ## Estrutura do Repositório
   Principais arquivos e diretórios:
