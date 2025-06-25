@@ -20,7 +20,6 @@ Depois, instale as dependências do projeto (caso não tenha ainda o postgre):
 
     /
     ├── scripts/
-    |   ├── requirements.txt
     │   ├── setup.sql
     │   ├── insertion.sql
     │   ├── consultas/
