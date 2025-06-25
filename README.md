@@ -52,12 +52,17 @@ Depois, instale as dependências do projeto (caso não tenha ainda o postgre):
     sudo -u postgres psql -f setup.sql
 3. **Carregar dados de exemplo**
     ```bash
-    sudo -u postgres psql -d trabalho_bd -f insertion.sql
+    sudo -u postgres psql -d trabalho_bd -f insertions.sql
     
 ## Execução das consultas
     
     sudo -u postgres psql -d trabalho_bd -f consultas/cons1.sql
     sudo -u postgres psql -d trabalho_bd -f consultas/cons2.sql
+    sudo -u postgres psql -d trabalho_bd -f consultas/cons3.sql
+    sudo -u postgres psql -d trabalho_bd -f consultas/cons4.sql
+    sudo -u postgres psql -d trabalho_bd -f consultas/cons5.sql
+    sudo -u postgres psql -d trabalho_bd -f consultas/cons6.sql
+    sudo -u postgres psql -d trabalho_bd -f consultas/cons7.sql
     
 ## Teste dos index 
     #rode esse scripts para fazer inserções extras, para explicitar a diferença de desempenho dada pelo index
