@@ -5,9 +5,11 @@
 e administrativas, facilitando a interação entre alunos, professores e a administração. Inclui scripts de criação de esquema, carga de dados de exemplo e consultas SQL para análise de desempenho e relatórios.
 
 ## Pré-requisitos - configuração do banco de dados
+
+Esse código está configurado para o ambiente Linux
+
 Coisas que precisam ser instaladas antes de executar o projeto:
 - [ ] **PostgreSQL** (inclui `psql`)  
-- [ ] **Python 3.8+** e **pip**  
 - [ ] **Git**
 
 Depois, instale as dependências do projeto (caso não tenha ainda o postgre):
