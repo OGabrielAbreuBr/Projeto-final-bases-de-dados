@@ -1,3 +1,4 @@
+-- criação de index para consultar notas acima da média 
 DROP INDEX IF EXISTS provas;
 EXPLAIN ANALYZE
 SELECT

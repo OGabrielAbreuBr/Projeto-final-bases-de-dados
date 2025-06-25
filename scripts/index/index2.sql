@@ -1,4 +1,6 @@
-DROP INDEX Ano_Semestre_feedback;
+-- criar index para coletar os feedbacks para aquele semestre específico
+
+DROP INDEX IF EXISTS Ano_Semestre_feedback;
 
 EXPLAIN ANALYZE
 SELECT

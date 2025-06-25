@@ -1,3 +1,4 @@
+-- Facilita a busca
 DROP VIEW IF EXISTS vw_matriculas_tardias_2025_1;
 
 CREATE OR REPLACE VIEW vw_matriculas_tardias_2025_1 AS

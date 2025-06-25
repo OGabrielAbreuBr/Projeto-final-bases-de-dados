@@ -1,3 +1,4 @@
+-- simplifica a pesquisa da média de calculo 1 do primeiro semestre
 CREATE OR REPLACE VIEW vw_media_calculo_2025_2 AS
 SELECT
     d.Nome_Disciplina,

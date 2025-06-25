@@ -1,3 +1,4 @@
+-- criação de index para consultar quais salas em determinado prédio tem capacidade o suficente para dar aula
 DROP INDEX IF EXISTS idx_sala_cobertura_capacidade;
 EXPLAIN ANALYSE
 SELECT *

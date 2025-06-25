@@ -1,3 +1,4 @@
+-- Checa o total de alunos da área de exatas na instituição 
 CREATE OR REPLACE VIEW vw_contagem_alunos_exatas AS
 SELECT
     COUNT(DISTINCT a.ID_usuario) AS "Total de Alunos Ativos em Exatas"
