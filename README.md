@@ -38,36 +38,36 @@ Depois, instale as dependências do projeto (caso não tenha ainda o postgre):
     └── LICENSE
 
 
-- `scripts/setup.sql` – cria tabelas e constraints.  
-- `scripts/insertion.sql` – insere dados de exemplo.  
-- `scripts/consultas/` – contém todas as consultas exigidas no enunciado.
+- `setup.sql` – cria tabelas e constraints.  
+- `insertion.sql` – insere dados de exemplo.  
+- `consultas/` – contém todas as consultas exigidas no enunciado.
 
 ## Execução do banco de dados
 1. **Clonar repositório**  
    ```bash
    git clone https://github.com/OGabrielAbreuBr/Projeto-final-bases-de-dados.git
-   cd Projeto-final-bases-de-dados
+   cd Projeto-final-bases-de-dados/scripts
 2. **Criar o banco de dados**
     ```bash
     sudo -u postgres psql -f setup.sql
 3. **Carregar dados de exemplo**
     ```bash
-    sudo -u postgres psql -d trabalho_bd -f scripts/insertion.sql
+    sudo -u postgres psql -d trabalho_bd -f insertion.sql
     
 ## Execução das consultas
     
-    sudo -u postgres psql -d trabalho_bd -f scripts/consultas/cons1.sql
-    sudo -u postgres psql -d trabalho_bd -f scripts/consultas/cons2.sql
+    sudo -u postgres psql -d trabalho_bd -f consultas/cons1.sql
+    sudo -u postgres psql -d trabalho_bd -f consultas/cons2.sql
     
 ## Teste dos index 
     #rode esse scripts para fazer inserções extras, para explicitar a diferença de desempenho dada pelo index
-    sudo -u postgres psql -d trabalho_bd -f scripts/index/strong_insertion.sql
+    sudo -u postgres psql -d trabalho_bd -f index/strong_insertion.sql
     
-    sudo -u postgres psql -P pager=off -d trabalho_bd -f scripts/index/index1.sql
+    sudo -u postgres psql -P pager=off -d trabalho_bd -f index/index1.sql
     
 ## Teste das visions
     
-    sudo -u postgres psql -d trabalho_bd -f scripts/vision/vision1.sql
+    sudo -u postgres psql -d trabalho_bd -f vision/vision1.sql
     
 
 ## Resultados Esperados das consultas
